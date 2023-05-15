@@ -1,0 +1,18 @@
+Дан код программы сложения чисел от 0 до 100. Проведите анализ программного кода и предложите варианты его оптимизации.
+
+namespace ConsoleApp4
+{
+class Program
+{
+static void Main(string[] args)
+{
+double total = 0;
+for (int i = 0; i < 20; i = i + 2)
+{
+total += i / 2;
+}
+Console.WriteLine("Сумма: " + Convert.ToString(total));
+Console.ReadKey();
+}
+}
+}
