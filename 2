@@ -1,0 +1,22 @@
+Перед вами код программы. Ваша задача описать что делает данная программа и составить алгоритм ее работы.
+
+namespace ConsoleApp4
+{
+class Program
+{
+static void Main(string[] args)
+{
+double a, b, c = 0;
+a = Convert.ToInt32(Console.ReadLine()); b = Convert.ToInt32(Console.ReadLine()); if (a > b)
+{
+c = Math.Pow(b, 2) - a;
+ 
+}
+else
+{
+c = Math.Pow(a, 3) - b;
+}
+Console.WriteLine(c); Console.ReadKey();
+}
+}
+}
